@@ -1,0 +1,190 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.today {
+	
+	border: 1px solid #03a9f4;
+}
+
+.loginPage {
+	display: flex;
+	justify-content: center;
+	margin-top:4rem;
+	
+}
+
+.formcomponent {
+	padding: 0.5rem 0;
+}
+
+.loginForm {
+	padding: 2rem;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.signUpButton {
+	display: flex;
+	justify-content: center;
+	margin-top:1rem;
+	color:#f16508;
+}
+
+
+.section {
+	margin-top: 1rem;
+	padding: 1rem 2rem;
+}
+
+.todo {
+	padding:2rem 5rem;
+	border-right: 1px solid rgb(207, 207, 207);
+}
+
+/* ................... TODO */
+
+.todoinput {
+	display: inline-block;
+	width: 195px;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+	height:fit-content;
+	padding: 1rem;
+	margin: 0 1rem;
+}
+
+.todocontent {
+	padding: .38rem;
+	cursor: pointer;
+}
+
+.todocontent.done {
+	text-decoration: line-through;
+}
+
+.todoitem {
+	text-align: left;
+	align-items: center;
+	height: 32px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.todoitem .icon {
+	z-index:10;
+}
+
+
+.todotitle {
+	text-align: center;
+}
+
+
+.todolist {
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+	width:195px;
+	min-height:20rem;
+	padding-top: 1rem;
+	text-align: center;
+	align-items: center;
+	display: inline-block;
+	margin: 0 1rem;
+}
+
+.todobody {
+	padding-top: 22px;
+	width: 100%;
+	height: 100%;
+	background-image: repeating-linear-gradient(transparent,transparent 22px,rgb(255, 255, 255) 22px,rgb(207, 207, 207) 23.23px,transparent 23.23px,transparent 32px);
+}
+
+.donelist {
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	padding-top: 1rem;
+	text-align: center;
+	align-items: center;
+	display: inline-block;
+	margin: 2rem 1rem;
+}
+
+/* ................. HABITS */
+
+.modalBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400;
+	border: '2px solid #000';
+	box-shadow: 24;
+
+}
+
+.modalDiv {
+	background-color: white;
+	padding: 2rem;
+
+}
+
+.habitlist {
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+	margin-top: 1rem;
+}
+
+
+
+.calendar {
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;	
+}
+
+.calendartitle {
+	padding-top: 2rem;
+	text-align: center;
+}
+
+
+
+/* ......................EXPERIMENT */
+.react-calendar__tile--now {
+    background: #03a9f4;
+    color: white;
+}
+
+.mycalendar {
+	width: 280px;
+}
+
+.calendarday {
+	width: 40px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	display: inline-block;
+}
+
+.calendarday .beforeMonth {
+	color:rgb(214, 214, 214)
+}
+
+.calendarday:hover {
+	background-color: rgb(228, 228, 228);
+}
+
+.selected {
+	background-color: green;
+}
+
+.calendarday .done {
+	background-color: #e44100
+}
+.calendarday .offDay {
+	background-color: #03a8f498
+}
+.calendarday .skipDay {
+	background-color: #5f9ebb
+}
+.calendarday .missDay {
+	background-color: #ff0000
+}
