@@ -7,8 +7,8 @@ import activeHabitReducer from "../features/habits/activeHabitSlice"
 const rootReducer = combineReducers({
 	user: userReducer,
 	todos: todolistReducer,
-	habits: habitReducer,
-	activeHabitCalendar: activeHabitReducer,
+	// habits: habitReducer,
+	// activeHabitCalendar: activeHabitReducer,
 })
 
 

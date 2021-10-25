@@ -10,7 +10,7 @@ const BodySplitter = () => {
 				<TodoSection />
 			</Grid>
 			<Grid item xs={12} md={6}>
-				<HabitSection />
+				{/* <HabitSection /> */}
 			</Grid>
 		</Grid>
 	)
